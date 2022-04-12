@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.menu li {
+    list-style: none;
+} 
+.menu a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    color: #404040;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.logo h1 {
+    font-family: 'Oswald';
+    font-weight: 400;
+    color: #333333;
+}
+.content {
+    background-image: url(img/IMAGE.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1263px;
+    height: 391px;
+    padding-top: 105px;
+}
+.content h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 44px;
+    color: #FFFFFF;
+    line-height: 55px;  
+}
+.content p {
+    text-align: center;
+    color: #FFFFFFCF;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 38px;
+}
+hr {
+    width: 80px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+.yellow {
+    background-color: #FEFEC9;
+    height: 289px;
+}
+.yellow p {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #47474F;
+}
+.yellow button {
+    position: relative;
+    top: 100px;
+    left: 550px;
+    padding: 13px 33px ;
+    background: transparent;
+    border: none;
+    border: 2px solid #47474F;
+    border-bottom: 3.5px solid;
+    cursor: pointer;
+}
+.icon h1 {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 79px;
+    color: #333333;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+.icon hr {
+    position: relative;
+    top: 110px;
+}
+.blok {
+    background-color: white;
+    display: flex;
+    position: relative;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.set img {
+    background-color: #F5F5F5;
+    padding: 50px 86px;
+}
+.design img {
+    background-color: #F5F5F5;
+    padding: 50px 86px;
+}
+.track img {
+    background-color: #F5F5F5;
+    padding: 50px 86px;
+}
+.design h3 {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 38px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.set h3 {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 38px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+}
+.track h3 {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 38px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.set p {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+}
+.design p {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+}
+.track p {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+}
+.photo {
+    background-color: #F5F5F5;
+    height: 1469px;
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+.photo h1 {
+    margin: 0;
+    position: relative;
+    top: 79px;
+    font-family: 'Montserrat';
+    color: #333333;
+    font-weight: 400;
+}
+.photo hr {
+    position: relative;
+    top: 120px;
+}
+.les {
+    background-color: #FFFFFF;
+    width: 300px;
+    position: relative;
+}
+.les h3 {
+    font-weight: 400;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.les p {
+    font-weight: 400;
+    font-family: 'Vollkorn';
+    text-align: center;
+}
+.path {
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.dark {
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.waves {
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.drops {
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.ocean {
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.town {
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.mountain {
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.camera {
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 150px;
+}
+.home h3 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #333333;
+}
+.home p {
+    font-family: 'Vollkorn';
+    font-weight: 400;
+    color: #333333;
+    
+}
+.mens {
+    position: relative;
+    top: 350px;
+    text-align: center;
+}
+.mens h1 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.people {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: 43px;
+}
+.people h3 {
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #333333;
+}
+.people p {
+    font-weight: 400;
+    font-family: 'Vollkorn';
+    font-size: 14px;
+    color: #333333;
+}
+.social img {
+    background-color: #F5F5F5;
+    padding: 5px;
+    
+}
+.social2 img {
+    background-color: #F5F5F5;
+    padding: 5px;
+}
+.social3 img {
+    background-color: #F5F5F5;
+    padding: 5px;
+}
+.social4 img {
+    background-color: #F5F5F5;
+    padding: 5px;
+}
